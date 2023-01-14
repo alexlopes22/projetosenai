@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.title{
+    color: rgb(247, 169, 169);
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.title-prime{
+    color: white;
+
+}
+.title-sec{
+    color: #e49e9e;
+}
+
+.description{
+    font-size: 14px;
+    font-weight: 300px;
+    line-height: 30px;
+}
+
+.description-prime {
+    color: white;
+}
+
+.description-sec {
+    color: #e49e9e;
+}
+
+.btn {
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    
+}
+
+.btn-prime {
+    background-color: transparent;
+    border: 1px solid white;
+
+}
+
+.btn-prime:hover{
+   background-color: white;
+   color: rgb(247, 169, 169); 
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.content {
+    border-radius: 15px;
+    background-color: white;
+    width: 80%;
+    height: 50%;
+    justify-content: space-between;
+    align-items: center; 
+    position: relative;
+}
+
+.content::before{
+    content:"";
+    position:absolute ;
+    background-color: #e49e9e ;
+    width: 40%;
+    height: 100%;
+
+}
+
+.second-content {
+    position: absolute;
+    display: none;
+}
+
+.first-content {
+    display: flex;
+}
+
+.first-column {
+    text-align: center;
+    flex: 1 0 auto;
+    z-index: 10;
+}
+
+.second-column {
+    flex: 2 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list-social-media {
+    list-style-type: none;
+    display: flex;
+}
+
+.item-social-media{
+    border: 1px solid #e49e9e;
+    border-radius: 50%;
+    width: 25%;
+    height: 35%;
+    line-height: 35%;
+    text-align: center;
+}
+
+.item-social-media a {
+    color: #e49e9e ;
+
+
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    height: 55px;
+    border: none;
+    background-color: #fac9c9;
+    width: 55%;
+}

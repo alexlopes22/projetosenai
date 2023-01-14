@@ -1,0 +1,32 @@
+h6{
+    text-decoration: underline;
+    color: rgb(214, 105, 123);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:rgb(226, 87, 110) ;
+}
+
+a {
+position: relative; 
+display: block;
+width: 100px;        
+}
+
+a span {
+    display: none;
+    }
+
+    a:hover span {
+        display: block; 
+        position: absolute; 
+        top: 0px; 
+        left: 100%;
+    }
+
+.by{
+    text-align: center;
+    color: #e4e4e4;
+    text-justify: auto;
+}
